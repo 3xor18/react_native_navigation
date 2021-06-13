@@ -1,10 +1,13 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {View, Text} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import MenuLateralBasico from './src/routes/MenuLateralBasico';
+import MenuLateral from './src/routes/MenuLateral';
 
 export default function App() {
   return (
-    <View>
-      <Text>App Screen</Text>
-    </View>
+    <NavigationContainer>
+      <MenuLateral />
+    </NavigationContainer>
   );
 }

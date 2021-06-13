@@ -1,4 +1,16 @@
-//Stack Navigator
-npm install @react-navigation/stack
+///////////////////////////////////////////////////////
+//Stack Navigator 
+///////////////////////////////////////////////////////
+(https://reactnavigation.org/docs/getting-started)
+npm install @react-navigation/native
 npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+(https://reactnavigation.org/docs/stack-navigator/)
+npm install @react-navigation/stack
 npx pod-install ios
+
+///////////////////////////////////////////////////////
+//Drawer
+///////////////////////////////////////////////////////
+https://reactnavigation.org/docs/drawer-navigator/
+npm install @react-navigation/drawer
