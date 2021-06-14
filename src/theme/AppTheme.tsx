@@ -43,4 +43,8 @@ const appStyles = StyleSheet.create({
   },
 });
 
+export const colores = {
+  primary: '#5856D6',
+};
+
 export default appStyles;
