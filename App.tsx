@@ -1,13 +1,19 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import MenuLateralBasico from './src/routes/MenuLateralBasico';
 import MenuLateral from './src/routes/MenuLateral';
+import {AuthProvider} from './src/context/AuthContext';
 
 export default function App() {
   return (
     <NavigationContainer>
-      <MenuLateral />
+      <AppState>
+        <MenuLateral />
+      </AppState>
     </NavigationContainer>
   );
 }
+
+const AppState = ({children}: any) => {
+  return <AuthProvider>{children}</AuthProvider>;
+};
